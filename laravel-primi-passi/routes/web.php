@@ -17,3 +17,11 @@ Route::get('/', function () {
     $message = 'hello laravel';
     return view('home', compact('message'));
 });
+
+Route::get('/abaut', function () {
+    $data = [
+        'title' => 'About As',
+        'message' => 'lorem ipsum'
+    ];
+    return view('abaut', $data);
+});
