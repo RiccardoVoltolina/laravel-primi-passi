@@ -25,3 +25,11 @@ Route::get('/abaut', function () {
     ];
     return view('abaut', $data);
 });
+
+Route::get('/credits', function () {
+    $data = [
+        'title' => 'Credits',
+        'message' => 'lorem ipsum'
+    ];
+    return view('credits', $data);
+});

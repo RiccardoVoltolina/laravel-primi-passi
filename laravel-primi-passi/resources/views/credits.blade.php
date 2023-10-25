@@ -17,14 +17,10 @@
 
 <body class="antialiased">
     <div>
-    <a href="/abaut">about</a>
-    <a href="/credits">credits</a>
+    <h1>{{$title}}</h1>
+    <div>{{$message}}</div>
 
     </div>
-
-
-    <div>Hello world!</div>
-    <div>{{$message}}</div>
 </body>
 
 </html>
